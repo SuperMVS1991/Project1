@@ -74,7 +74,7 @@ if (characterList[0].includes(letter)) {
 // then you would need some, find if the letter is in our string 
 var endgame = function(){
     console.log("endgame") 
-    location.replace("results.html") 
+    location.replace("./results.html") 
 }
 // if it is null or flase 
 // then we want incorrect to come up below the image 
