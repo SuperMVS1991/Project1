@@ -8,7 +8,7 @@ const allButtons = document.querySelectorAll('button');
 // private key - 96dc429b46b326921eb7e42ff32e5d81b6077a2b
 // need a function called load characters
 var apiMarvel = function() {
-    const apiUrl = 'http://gateway.marvel.com/v1/public/characters';
+    const apiUrl = 'https://gateway.marvel.com/v1/public/characters';
     const apiKey = 'd4d97531c1e479bbe6e27b6f4139fa7e';
     const timestamp = '1';
     const hash = '685498cef61d5c0f1571a0d89fb966a0';
